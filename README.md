@@ -51,7 +51,7 @@ TBD
 ## Author
 
 - Website - [Rizqy Fachri](https://rizqyfm.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Rizqyfm)
+- Frontend Mentor - [@Rizqyfm](https://www.frontendmentor.io/profile/Rizqyfm)
 - Twitter - [@rizqyf](https://twitter.com/rizqyf_)
 
 ## Available Scripts
