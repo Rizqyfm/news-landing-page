@@ -1,0 +1,52 @@
+/* Desktop */
+.upperSection {
+  display: flex;
+  flex-direction: row;
+  gap: auto;
+  padding: 20px 0;
+}
+
+.leftUpper {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+.heroImg {
+  height: 100%;
+}
+.headline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.headlineTitle {
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: bolder;
+  padding: 0 50px 0 0;
+}
+.textContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.text {
+  font-size: 15px;
+}
+.cta {
+  font-weight: bold;
+  color: white;
+  border: none;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  background-color: hsl(5, 85%, 63%);
+  font-size: 15px;
+  padding: 15px 40px;
+}
+.cta:hover {
+  cursor: pointer;
+  color: white;
+  background-color: hsl(240, 100%, 5%);
+  transition: 0.2s;
+}
