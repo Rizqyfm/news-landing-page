@@ -26,27 +26,31 @@ function Homepage() {
           </article>
         </section>
         <section className="rightUpper">
-          <h2 className="subHeadline">New</h2>
-          <article className="news">
-            <h3 className="smallHeadline">Hydrogen VS Electric Cars</h3>
-            <p className="textContent">
-              Will hydrogen-fueled cars ever catch up to EVs?
-            </p>
-          </article>
-          <article className="news">
-            <h3 className="smallHeadline">The Downsides of AI</h3>
-            <p className="textContent">
-              Artistry What are the possible adverse effects of on-demand AI
-              image generation?{" "}
-            </p>
-          </article>
-          <article className="news">
-            <h3 className="smallHeadline">Is VC Funding Drying Up?</h3>
-            <p className="textContent">
-              Private funding by VC firms is down 50% YOY. We take a look at
-              what that means.
-            </p>
-          </article>
+          <section className="rightContent">
+            <h2 className="subHeadline">New</h2>
+            <article className="news sideNews">
+              <h3 className="smallHeadline">Hydrogen VS Electric Cars</h3>
+              <p className="sideText">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </article>
+            <hr className="line"></hr>
+            <article className="news sideNews">
+              <h3 className="smallHeadline">The Downsides of AI</h3>
+              <p className="sideText">
+                Artistry What are the possible adverse effects of on-demand AI
+                image generation?{" "}
+              </p>
+            </article>
+            <hr className="line"></hr>
+            <article className="news">
+              <h3 className="smallHeadline">Is VC Funding Drying Up?</h3>
+              <p className="sideText">
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </article>
+          </section>
         </section>
       </section>
 

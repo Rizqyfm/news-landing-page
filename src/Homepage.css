@@ -1,15 +1,20 @@
 /* Desktop */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .upperSection {
   display: flex;
   flex-direction: row;
-  gap: auto;
+  gap: 40px;
   padding: 20px 0;
 }
 
 .leftUpper {
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width: 65%;
 }
 .heroImg {
   height: 100%;
@@ -18,18 +23,22 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 20px;
+  margin-top: -50px;
 }
 .headlineTitle {
-  font-size: 48px;
+  font-size: 60px;
   line-height: 100%;
   font-weight: bolder;
-  padding: 0 50px 0 0;
 }
 .textContent {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 30px;
   gap: 20px;
+  color: hsl(236, 13%, 42%);
+  line-height: 150%;
 }
 .text {
   font-size: 15px;
@@ -49,4 +58,42 @@
   color: white;
   background-color: hsl(240, 100%, 5%);
   transition: 0.2s;
+}
+
+.rightUpper {
+  background-color: hsl(240, 100%, 5%);
+}
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0 20px;
+}
+.sideNews {
+  padding-bottom: 30px;
+}
+.subHeadline {
+  font-size: 40px;
+  font-weight: bold;
+  color: hsl(35, 77%, 62%);
+}
+.line {
+  width: 100%;
+  height: 0.1px;
+  border-width: 0;
+  color: hsl(236, 13%, 42%);
+  background-color: hsl(236, 13%, 42%);
+}
+.smallHeadline,
+.sideText {
+  color: white;
+}
+.smallHeadline {
+  font-size: 24px;
+}
+.smallHeadline:hover {
+  color: hsl(35, 77%, 62%);
+}
+.sideText {
+  font-size: 15px;
 }
