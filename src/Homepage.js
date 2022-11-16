@@ -28,22 +28,22 @@ function Homepage() {
         <section className="rightUpper">
           <section className="rightContent">
             <h2 className="subHeadline">New</h2>
-            <article className="news sideNews">
+            <article className="sideNews">
               <h3 className="smallHeadline">Hydrogen VS Electric Cars</h3>
               <p className="sideText">
                 Will hydrogen-fueled cars ever catch up to EVs?
               </p>
             </article>
             <hr className="line"></hr>
-            <article className="news sideNews">
+            <article className="sideNews sideNewsBtm">
               <h3 className="smallHeadline">The Downsides of AI</h3>
               <p className="sideText">
                 Artistry What are the possible adverse effects of on-demand AI
-                image generation?{" "}
+                image generation?
               </p>
             </article>
             <hr className="line"></hr>
-            <article className="news">
+            <article className="sideNewsBtm">
               <h3 className="smallHeadline">Is VC Funding Drying Up?</h3>
               <p className="sideText">
                 Private funding by VC firms is down 50% YOY. We take a look at
@@ -56,28 +56,34 @@ function Homepage() {
 
       <section className="lowerSection">
         <article className="news">
-          <img className="logo" src={computer} alt=""></img>
-          <h3 className="smallHeadline">01</h3>
-          <h4 className="tinyHeadline">Reviving Retro PCs</h4>
-          <p className="textContent">
-            What happens when old PCs are given modern upgrades?
-          </p>
+          <img className="smallImg" src={computer} alt=""></img>
+          <div className="newsContent">
+            <h3 className="smallerHeadline">01</h3>
+            <h4 className="tinyHeadline">Reviving Retro PCs</h4>
+            <p className="smallText">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
         </article>
         <article className="news">
-          <img className="logo" src={keyboard} alt=""></img>
-          <h3 className="smallHeadline">02</h3>
-          <h4 className="tinyHeadline">Top 10 Laptops of 2022</h4>
-          <p className="textContent">
-            Our best picks for various needs and budgets.
-          </p>
+          <img className="smallImg" src={keyboard} alt=""></img>
+          <div className="newsContent">
+            <h3 className="smallerHeadline">02</h3>
+            <h4 className="tinyHeadline">Top 10 Laptops of 2022</h4>
+            <p className="smallText">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
         </article>
         <article className="news">
-          <img className="logo" src={game} alt=""></img>
-          <h3 className="smallHeadline">03</h3>
-          <h4 className="tinyHeadline">The Growth of Gaming</h4>
-          <p className="textContent">
-            How the pandemic has sparked fresh opportunities.
-          </p>
+          <img className="smallImg" src={game} alt=""></img>
+          <div className="newsContent">
+            <h3 className="smallerHeadline">03</h3>
+            <h4 className="tinyHeadline">The Growth of Gaming</h4>
+            <p className="smallText">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
         </article>
       </section>
     </main>
