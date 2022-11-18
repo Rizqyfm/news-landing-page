@@ -1,9 +1,10 @@
 import React from "react";
-import "./index.css";
-import hero from "./assets/images/image-web-3-desktop.jpg";
-import computer from "./assets/images/image-retro-pcs.jpg";
-import keyboard from "./assets/images/image-top-laptops.jpg";
-import game from "./assets/images/image-gaming-growth.jpg";
+import "../index.css";
+import hero from "../assets/images/image-web-3-desktop.jpg";
+import heroPhone from "../assets/images/image-web-3-mobile.jpg";
+import computer from "../assets/images/image-retro-pcs.jpg";
+import keyboard from "../assets/images/image-top-laptops.jpg";
+import game from "../assets/images/image-gaming-growth.jpg";
 
 function Homepage() {
   return (
@@ -11,6 +12,7 @@ function Homepage() {
       <section className="upperSection">
         <section className="leftUpper">
           <img className="heroImg" src={hero} alt="web 3"></img>
+          <img className="heroPhone" src={heroPhone} alt="web 3"></img>
           <article className="headline">
             <h1 className="headlineTitle">The Bright Future of Web 3.0?</h1>
             <section className="textContent">
