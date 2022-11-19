@@ -31,10 +31,8 @@ TBD
 
 ### Links
 
-- Solution URL: TBD
-<!-- [Add solution URL here](https://your-solution-url.com) -->
-- Live Site URL: TBD
-<!-- [Add live site URL here](https://your-live-site-url.com) -->
+- Live Site URL: 
+https://news-frontend-mentor.netlify.app/
 
 ## My process
 
@@ -45,6 +43,7 @@ TBD
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Styled components
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 
